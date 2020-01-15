@@ -869,7 +869,7 @@
             { type: core.NgModule, args: [{
                         declarations: [CronEditorComponent, TimePickerComponent],
                         imports: [common.CommonModule, forms.FormsModule],
-                        exports: [CronEditorComponent]
+                        exports: [CronEditorComponent, TimePickerComponent]
                     },] }
         ];
         return CronEditorModule;

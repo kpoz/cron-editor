@@ -732,7 +732,7 @@ CronEditorModule.decorators = [
     { type: NgModule, args: [{
                 declarations: [CronEditorComponent, TimePickerComponent],
                 imports: [CommonModule, FormsModule],
-                exports: [CronEditorComponent]
+                exports: [CronEditorComponent, TimePickerComponent]
             },] }
 ];
 
