@@ -39,3 +39,16 @@ export declare class CronEditorComponent implements OnInit, OnChanges {
     private getOrdinalSuffix;
     private getSelectOptions;
 }
+export declare class TimePickerComponent2 implements OnInit {
+    change: EventEmitter<{}>;
+    disabled: boolean;
+    time: any;
+    selectClass: string;
+    use24HourTime: boolean;
+    hideSeconds: boolean;
+    hours: number[];
+    minutes: number[];
+    seconds: number[];
+    hourTypes: string[];
+    ngOnInit(): void;
+}
